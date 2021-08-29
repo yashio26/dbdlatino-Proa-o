@@ -1,0 +1,449 @@
+body {
+  background: linear-gradient(to bottom, #303030, #230000); }
+  body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none; }
+  body .descripcionPagina {
+    border-bottom: black 1px solid;
+    padding-bottom: 1vh; }
+    body .descripcionPagina .descripcionPagina__titulo {
+      text-align: center;
+      color: white;
+      font-family: sans-serif;
+      margin-bottom: 1vh;
+      padding-top: 1vh;
+      font-size: 3vh; }
+    body .descripcionPagina p {
+      color: #ddf5ff;
+      margin: 0;
+      text-align: center; }
+  body .tabla {
+    text-align: center;
+    background-color: #160000;
+    color: #c78917; }
+    body .tabla .tituloTabla {
+      color: orange; }
+  body footer p {
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    padding-bottom: 2vh;
+    padding-top: 2vh; }
+
+/* INICIO HEADER */
+.contenedorNombrePagina {
+  font-size: 4vh;
+  background-color: black;
+  border-bottom: 1px solid #1b0000;
+  color: #880101;
+  text-align: center;
+  font-family: 'Encode Sans SC', sans-serif; }
+  .contenedorNombrePagina h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh; }
+
+.navbar-dark {
+  height: auto;
+  background-color: black; }
+  .navbar-dark .navbar-nav .nav-link {
+    color: red !important;
+    font-size: 3vh; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: crimson !important; }
+
+/* FIN HEADER */
+/* INICIO INDEX */
+.mainIndex {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid; }
+  .mainIndex .novedades {
+    background-color: #691000;
+    color: skyblue;
+    font-family: 'Encode Sans SC', sans-serif;
+    text-decoration: underline;
+    padding-top: 1vh; }
+    .mainIndex .novedades .novedades__novedad {
+      border-bottom: black 1px solid; }
+      .mainIndex .novedades .novedades__novedad h3 {
+        margin-top: 1vh;
+        margin-bottom: 2vh; }
+      .mainIndex .novedades .novedades__novedad .imgNovedad {
+        height: 62vh;
+        width: 75vh;
+        margin-bottom: 2vh; }
+      .mainIndex .novedades .novedades__novedad a {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        align-items: center; }
+  .mainIndex .ultimosCapitulos {
+    background-color: #691000;
+    color: skyblue;
+    font-family: 'Encode Sans SC', sans-serif;
+    text-decoration: underline;
+    padding-bottom: 2vh; }
+    .mainIndex .ultimosCapitulos .carousel-item img {
+      width: 77vh;
+      height: 62vh; }
+
+/* FIN INDEX */
+/* INICIO NOTICIAS */
+.mainNoticias {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid; }
+  .mainNoticias .noticia {
+    color: #ddf5ff;
+    text-align: left;
+    border-bottom: solid black 1px;
+    padding-bottom: 2vh; }
+    .mainNoticias .noticia .noticia__titulo {
+      color: skyblue;
+      font-family: 'Encode Sans SC', sans-serif;
+      text-decoration: underline;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      margin: 0; }
+    .mainNoticias .noticia p {
+      margin: 0; }
+    .mainNoticias .noticia .noticia__subtitulo {
+      text-align: center;
+      padding-bottom: 2vh;
+      padding-top: 2vh;
+      margin: 0; }
+    .mainNoticias .noticia .noticia__imagenPrincipal {
+      height: 62vh;
+      width: 80vh;
+      margin: auto;
+      display: block;
+      padding-top: 2vh;
+      padding-bottom: 2vh; }
+    .mainNoticias .noticia .noticia__imagen {
+      height: 62vh;
+      width: 80vh;
+      margin: auto;
+      display: block;
+      padding-top: 2vh; }
+  .mainNoticias .formulario {
+    background-color: #691000;
+    color: whitesmoke;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: 'Encode Sans SC', sans-serif; }
+    .mainNoticias .formulario .itemFormulario {
+      margin-bottom: 1vh; }
+
+/* FIN NOTICIAS */
+/* INICIO PERSONAJES */
+.mainPersonajes {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid; }
+  .mainPersonajes .objetivos {
+    color: #ddf5ff;
+    padding-bottom: 2vh; }
+    .mainPersonajes .objetivos .objetivos__categoria {
+      color: skyblue;
+      text-align: center;
+      font-family: 'Encode Sans SC', sans-serif;
+      text-decoration: underline;
+      padding-bottom: 2vh;
+      padding-top: 2vh; }
+  .mainPersonajes .personaje {
+    color: #ddf5ff;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030; }
+    .mainPersonajes .personaje .personaje__nombre {
+      padding-bottom: 2vh; }
+
+/* FIN PERSONAJES */
+/* INICIO CAPITULOS */
+.mainCapitulos {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid; }
+  .mainCapitulos .contenedorCapitulos {
+    height: auto; }
+    .mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo {
+      border: 1px black dashed;
+      height: 46vh;
+      margin-top: 2vh;
+      margin-bottom: 3vh;
+      padding: 0;
+      transition: height 2s; }
+    .mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo:hover {
+      height: 55vh; }
+
+/* FIN CAPITULOS */
+/* INICIO VENTAJAS */
+.mainVentajas {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid; }
+  .mainVentajas .categoriaVentaja {
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-top: #303030 1px solid; }
+    .mainVentajas .categoriaVentaja .categoriaVentaja__titulo {
+      color: skyblue;
+      text-align: center;
+      font-family: 'Encode Sans SC', sans-serif;
+      text-decoration: underline;
+      padding-bottom: 2vh; }
+
+/* FIN VENTAJAS */
+/* INICIO MAPAS */
+.mainMapas {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 2px solid; }
+  .mainMapas .infoReinos {
+    color: #ddf5ff;
+    text-align: left;
+    margin-top: 2vh; }
+    .mainMapas .infoReinos .infoReinos__titulo {
+      color: skyblue;
+      text-align: left;
+      font-family: 'Encode Sans SC', sans-serif;
+      text-decoration: underline; }
+  .mainMapas .reino {
+    color: #ddf5ff;
+    text-align: left;
+    border-top: #303030 1px solid;
+    padding-top: 2vh;
+    padding-bottom: 2vh; }
+    .mainMapas .reino .reino__nombre {
+      color: skyblue;
+      text-align: left;
+      font-family: 'Encode Sans SC', sans-serif;
+      text-decoration: underline; }
+    .mainMapas .reino ul {
+      margin-top: 2vh;
+      margin-bottom: 2vh; }
+
+/* FIN MAPAS */
+/* INICIO SANTUARIO */
+.mainSantuario {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid; }
+  .mainSantuario .pies-ligeros, .mainSantuario .voluntad-hierro, .mainSantuario .escalofrios, .mainSantuario .caza-menor {
+    color: #ddf5ff;
+    text-align: center;
+    border-top: #303030 1px solid;
+    padding-top: 2vh;
+    padding-bottom: 2vh; }
+    .mainSantuario .pies-ligeros .ventaja__nombre, .mainSantuario .voluntad-hierro .ventaja__nombre, .mainSantuario .escalofrios .ventaja__nombre, .mainSantuario .caza-menor .ventaja__nombre {
+      color: skyblue;
+      font-family: 'Encode Sans SC', sans-serif;
+      text-decoration: underline; }
+    .mainSantuario .pies-ligeros .ventaja__imagen, .mainSantuario .voluntad-hierro .ventaja__imagen, .mainSantuario .escalofrios .ventaja__imagen, .mainSantuario .caza-menor .ventaja__imagen {
+      height: 17vh;
+      width: 15vh;
+      padding-top: 2vh;
+      padding-bottom: 2vh; }
+
+/* FIN SANTUARIO */
+/* INICIO ERROR 404 */
+.mainError404 {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  color: white; }
+  .mainError404 .descripcionError404 {
+    padding-top: 5vh;
+    padding-bottom: 5vh; }
+    .mainError404 .descripcionError404 a {
+      color: white; }
+    .mainError404 .descripcionError404 a:hover {
+      color: red; }
+  .mainError404 .campeo img {
+    width: 100vh;
+    height: 60vh; }
+
+/* FIN ERROR 404 */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .mainIndex .novedades h3 {
+    font-size: x-large; }
+  .mainIndex .novedades .novedades__novedad h3 {
+    font-size: x-large; }
+  .mainIndex .novedades .novedades__novedad .imgNovedad {
+    height: 50vh;
+    width: 65vh; }
+  .mainIndex .ultimosCapitulos h3 {
+    font-size: x-large; }
+  .mainIndex .ultimosCapitulos .carousel-item img {
+    width: 65vh;
+    height: 50vh; }
+  footer p {
+    font-size: medium; }
+  /* NOTICIAS */
+  .mainNoticias .noticia .noticia__titulo {
+    font-size: x-large; }
+  .mainNoticias .noticia .noticia__subtitulo {
+    font-size: x-large; }
+  .mainNoticias .noticia .noticia__imagenPrincipal {
+    height: 55vh;
+    width: 70vh; }
+  .mainNoticias .noticia .noticia__imagen {
+    height: 55vh;
+    width: 70vh; }
+  .mainNoticias .formulario {
+    font-size: small; }
+  /* VENTAJAS */
+  .mainVentajas .categoriaVentaja .categoriaVentaja__titulo {
+    font-size: xx-large; }
+  /* MAPAS */
+  .mainMapas .infoReinos .infoReinos__titulo {
+    font-size: large; }
+  .mainMapas .reino h3 {
+    font-size: large; }
+  .mainMapas .reino .reino__nombre {
+    font-size: large; }
+  /* SANTUARIO */
+  .mainSantuario .pies-ligeros .ventaja__nombre, .mainSantuario .voluntad-hierro .ventaja__nombre, .mainSantuario .escalofrios .ventaja__nombre, .mainSantuario .caza-menor .ventaja__nombre {
+    font-size: large; } }
+
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+  .contenedorNombrePagina h1 {
+    font-size: xx-large; }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: medium; }
+  .descripcionPagina .descripcionPagina__titulo {
+    font-size: 2vh; }
+  .descripcionPagina p {
+    font-size: 2vh; }
+  .mainIndex .novedades h3 {
+    font-size: medium; }
+  .mainIndex .novedades .novedades__novedad h3 {
+    font-size: medium; }
+  .mainIndex .novedades .novedades__novedad .imgNovedad {
+    height: 45vh;
+    width: 53vh; }
+  .mainIndex .ultimosCapitulos h3 {
+    font-size: medium; }
+  .mainIndex .ultimosCapitulos .carousel-item img {
+    width: 53vh;
+    height: 45vh; }
+  footer p {
+    font-size: small; }
+  /* NOTICIAS */
+  .mainNoticias .noticia .noticia__titulo {
+    font-size: medium; }
+  .mainNoticias .noticia .noticia__subtitulo {
+    font-size: medium; }
+  .mainNoticias .noticia .noticia__imagenPrincipal {
+    height: 45vh;
+    width: 53vh; }
+  .mainNoticias .noticia .noticia__imagen {
+    height: 45vh;
+    width: 53vh; }
+  .mainNoticias .formulario {
+    font-size: small; }
+    .mainNoticias .formulario .itemFormulario {
+      font-size: medium; }
+  /* CAPITULOS */
+  .mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo {
+    height: 20vh; }
+  .mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo:hover {
+    height: 30vh; }
+  /* VENTAJAS */
+  .subtituloVentajas {
+    font-size: small; }
+  /* MAPAS */
+  .mainMapas .infoReinos .infoReinos__titulo {
+    font-size: medium; }
+  .mainMapas .reino h3 {
+    font-size: medium; }
+  .mainMapas .reino .reino__nombre {
+    font-size: medium; }
+  /* SANTUARIO */
+  .mainSantuario .pies-ligeros .ventaja__nombre, .mainSantuario .voluntad-hierro .ventaja__nombre, .mainSantuario .escalofrios .ventaja__nombre, .mainSantuario .caza-menor .ventaja__nombre {
+    font-size: medium; } }
+
+@media only screen and (max-width: 400px) {
+  .contenedorNombrePagina h1 {
+    font-size: x-large; }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 2vh; }
+  .descripcionPagina .descripcionPagina__titulo {
+    font-size: 2vh; }
+  .descripcionPagina p {
+    font-size: 2vh; }
+  .mainIndex .novedades h3 {
+    font-size: small; }
+  .mainIndex .novedades .novedades__novedad h3 {
+    font-size: small; }
+  .mainIndex .novedades .novedades__novedad .imgNovedad {
+    height: 35vh;
+    width: 45vh; }
+  .mainIndex .ultimosCapitulos h3 {
+    font-size: small; }
+  .mainIndex .ultimosCapitulos .carousel-item img {
+    width: 45vh;
+    height: 35vh; }
+  footer p {
+    font-size: small; }
+  /* NOTICIAS */
+  .mainNoticias .noticia .noticia__titulo {
+    font-size: medium; }
+  .mainNoticias .noticia .noticia__subtitulo {
+    font-size: medium; }
+  .mainNoticias .noticia .noticia__imagenPrincipal {
+    height: 40vh;
+    width: 45vh; }
+  .mainNoticias .noticia .noticia__imagen {
+    height: 40vh;
+    width: 45vh; }
+  .mainNoticias .formulario {
+    font-size: small; }
+    .mainNoticias .formulario .itemFormulario {
+      font-size: medium; }
+  /* PERSONAJES */
+  .mainPersonajes .objetivos {
+    font-size: small; }
+    .mainPersonajes .objetivos .objetivos__categoria {
+      font-size: medium; }
+  .mainPersonajes .personaje .personaje__nombre {
+    font-size: medium; }
+  .tabla {
+    font-size: small; }
+  /* CAPITULOS */
+  .mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo {
+    height: 20vh; }
+  .mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo:hover {
+    height: 30vh; }
+  /* MAPAS */
+  .mainMapas .infoReinos .infoReinos__titulo {
+    font-size: medium; }
+  .mainMapas .reino h3 {
+    font-size: medium; }
+  .mainMapas .reino .reino__nombre {
+    font-size: medium; }
+  /* SANTUARIO */
+  .mainSantuario .pies-ligeros .ventaja__nombre, .mainSantuario .voluntad-hierro .ventaja__nombre, .mainSantuario .escalofrios .ventaja__nombre, .mainSantuario .caza-menor .ventaja__nombre {
+    font-size: medium; } }
+
+.pies-ligeros {
+  background-image: url("../../imagenes/pies-ligeros.gif");
+  background-size: 20vh 18vh;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.voluntad-hierro {
+  background-image: url("../../imagenes/voluntad-hierro.gif");
+  background-size: 20vh 18vh;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.escalofrios {
+  background-image: url("../../imagenes/escalofrios.gif");
+  background-size: 20vh 18vh;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.caza-menor {
+  background-image: url("../../imagenes/caza-menor.gif");
+  background-size: 20vh 18vh;
+  background-position: center;
+  background-repeat: no-repeat; }

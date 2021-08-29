@@ -1,0 +1,333 @@
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .mainIndex{
+        .novedades{ 
+            h3{
+                font-size: x-large;
+            }
+            .novedades__novedad{
+                h3{
+                    font-size: x-large;
+                }
+                .imgNovedad{
+                    height: 50vh;
+                    width: 65vh;
+                }
+            }
+        }
+        .ultimosCapitulos{
+            h3{
+                font-size: x-large;
+            }
+            .carousel-item img{
+                width: 65vh;
+                height: 50vh;
+            }
+        }
+    }
+    footer p{
+        font-size: medium;
+    }
+    /* NOTICIAS */
+    .mainNoticias{
+        .noticia{
+            .noticia__titulo{
+                font-size: x-large;
+            }
+            .noticia__subtitulo{
+                font-size: x-large;
+            }
+            .noticia__imagenPrincipal{
+                height: 55vh;
+                width: 70vh;
+            }
+            .noticia__imagen{
+                height: 55vh;
+                width: 70vh;
+            }
+        }
+        .formulario{
+        font-size: small;
+        }
+    }
+    /* VENTAJAS */
+    .mainVentajas{
+        .categoriaVentaja{
+            .categoriaVentaja__titulo{
+                font-size: xx-large;
+            }
+        }
+    }
+    /* MAPAS */
+    .mainMapas{
+        .infoReinos{
+            .infoReinos__titulo{
+                font-size: large;
+            }
+        }
+        .reino{
+            h3{
+                font-size: large;
+            }
+            .reino__nombre{
+                font-size: large;
+            }
+        }
+    }
+    /* SANTUARIO */
+    .mainSantuario{
+        .pies-ligeros, .voluntad-hierro, .escalofrios, .caza-menor{
+            .ventaja__nombre{
+                font-size: large;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 768px){
+    .contenedorNombrePagina{
+        h1{
+            font-size: xx-large;
+        }
+    }
+    .navbar-dark{
+        .navbar-nav{
+            .nav-link{
+                font-size: medium;
+            }
+        }
+    }
+    .descripcionPagina{
+        .descripcionPagina__titulo{
+            font-size: 2vh;
+        }
+        p{
+            font-size: 2vh;
+        }
+    }
+    .mainIndex{
+        .novedades{ 
+            h3{
+                font-size: medium;
+            }
+            .novedades__novedad{
+                h3{
+                    font-size: medium;
+                }
+                .imgNovedad{
+                    height: 45vh;
+                    width: 53vh;
+                }
+            }
+        }
+        .ultimosCapitulos{
+            h3{
+                font-size: medium;
+            }
+            .carousel-item img{
+                width: 53vh;
+                height: 45vh;
+            }
+        }
+    }
+    footer p{
+        font-size: small;
+    }
+    /* NOTICIAS */
+    .mainNoticias{
+        .noticia{
+            .noticia__titulo{
+                font-size: medium;
+            }
+            .noticia__subtitulo{
+                font-size: medium;
+            }
+            .noticia__imagenPrincipal{
+                height: 45vh;
+                width: 53vh;
+            }
+            .noticia__imagen{
+                height: 45vh;
+                width: 53vh;
+            }
+        }
+        .formulario{
+        font-size: small;
+            .itemFormulario{
+                font-size: medium;
+            }
+        }
+    }
+    /* CAPITULOS */
+    .mainCapitulos{
+        .contenedorCapitulos{
+            .contenedorCapitulos__capitulo{
+                height: 20vh;
+            }
+            .contenedorCapitulos__capitulo:hover{
+                height: 30vh;
+            }
+        }
+    }
+    /* VENTAJAS */
+    .subtituloVentajas{
+        font-size: small;
+    }
+    /* MAPAS */
+    .mainMapas{
+        .infoReinos{
+            .infoReinos__titulo{
+                font-size: medium;
+            }
+        }
+        .reino{
+            h3{
+                font-size: medium;
+            }
+            .reino__nombre{
+                font-size: medium;
+            }
+        }
+    }
+    /* SANTUARIO */
+    .mainSantuario{
+        .pies-ligeros, .voluntad-hierro, .escalofrios, .caza-menor{
+            .ventaja__nombre{
+                font-size: medium;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 400px){
+    .contenedorNombrePagina{
+        h1{
+            font-size: x-large;
+        }
+    }
+    .navbar-dark{
+        .navbar-nav{
+            .nav-link{
+                font-size: 2vh;
+            }
+        }
+    }
+    .descripcionPagina{
+        .descripcionPagina__titulo{
+            font-size: 2vh;
+        }
+        p{
+            font-size: 2vh;
+        }
+    }
+    .mainIndex{
+        .novedades{ 
+            h3{
+                font-size: small;
+            }
+            .novedades__novedad{
+                h3{
+                    font-size: small;
+                }
+                .imgNovedad{
+                    height: 35vh;
+                    width: 45vh;
+                }
+            }
+        }
+        .ultimosCapitulos{
+            h3{
+                font-size: small;
+            }
+            .carousel-item img{
+                width: 45vh;
+                height: 35vh;
+            }
+        }
+    }
+    footer p{
+        font-size: small;
+    }
+    /* NOTICIAS */
+    .mainNoticias{
+        .noticia{
+            .noticia__titulo{
+                font-size: medium;
+            }
+            .noticia__subtitulo{
+                font-size: medium;
+            }
+            .noticia__imagenPrincipal{
+                height: 40vh;
+                width: 45vh;
+            }
+            .noticia__imagen{
+                height: 40vh;
+                width: 45vh;
+            }
+        }
+        .formulario{
+        font-size: small;
+            .itemFormulario{
+                font-size: medium;
+            }
+        }
+    }
+    /* PERSONAJES */
+    .mainPersonajes{
+        .objetivos{
+            font-size: small;
+            .objetivos__categoria{
+            font-size: medium;
+            }
+        }
+        .personaje{
+            .personaje__nombre{
+                font-size: medium;
+            }
+        }
+    }
+    .tabla{
+        font-size: small;
+    }
+    /* CAPITULOS */
+    .mainCapitulos{
+        .contenedorCapitulos{
+            .contenedorCapitulos__capitulo{
+                height: 20vh;
+            }
+            .contenedorCapitulos__capitulo:hover{
+                height: 30vh;
+            }
+        }
+    }
+    /* MAPAS */
+    .mainMapas{
+        .infoReinos{
+            .infoReinos__titulo{
+                font-size: medium;
+            }
+        }
+        .reino{
+            h3{
+                font-size: medium;
+            }
+            .reino__nombre{
+                font-size: medium;
+            }
+        }
+    }
+    /* SANTUARIO */
+    .mainSantuario{
+        .pies-ligeros, .voluntad-hierro, .escalofrios, .caza-menor{
+            .ventaja__nombre{
+                font-size: medium;
+            }
+        }
+    }
+}

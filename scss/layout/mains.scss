@@ -1,0 +1,246 @@
+/* INICIO INDEX */
+.mainIndex{
+    text-align: center;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    .novedades{ 
+        background-color: rgb(105, 16, 0);
+        color: skyblue;
+        font-family: 'Encode Sans SC', sans-serif;
+        text-decoration: underline;  
+        padding-top: 1vh;
+        .novedades__novedad{
+            border-bottom: black 1px solid;
+            h3{
+                margin-top: 1vh;
+                margin-bottom: 2vh;
+            }
+            .imgNovedad{
+                height: 62vh;
+                width: 75vh;
+                margin-bottom: 2vh;
+            }
+            a{
+                margin-top: 2vh;
+                margin-bottom: 2vh;
+                align-items: center;
+            }
+        }
+    }
+    .ultimosCapitulos{
+        background-color: rgb(105, 16, 0);
+        color: skyblue;
+        font-family: 'Encode Sans SC', sans-serif;
+        text-decoration: underline;
+        padding-bottom: 2vh;
+        .carousel-item img{
+            width: 77vh;
+            height: 62vh;
+        }
+    }
+}
+/* FIN INDEX */
+/* INICIO NOTICIAS */
+.mainNoticias{
+    text-align: center;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    .noticia{
+        color: rgb(221, 245, 255);
+        text-align: left;
+        border-bottom: solid black 1px;
+        padding-bottom: 2vh;
+        .noticia__titulo{
+            color:skyblue;
+            font-family: 'Encode Sans SC', sans-serif;
+            text-decoration: underline;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            margin: 0;
+        }
+        p{
+            margin: 0;
+        }
+        .noticia__subtitulo{
+            text-align: center;
+            padding-bottom: 2vh;
+            padding-top: 2vh;
+            margin: 0;
+        }
+        .noticia__imagenPrincipal{
+            height: 62vh;
+            width: 80vh;
+            margin: auto;
+            display: block;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+        }
+        .noticia__imagen{
+            height: 62vh;
+            width: 80vh;
+            margin: auto;
+            display: block;
+            padding-top: 2vh;
+        }
+    }
+    .formulario{
+        background-color: rgb(105, 16, 0);
+        color: whitesmoke;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        font-family: 'Encode Sans SC', sans-serif;
+        .itemFormulario{
+            margin-bottom: 1vh;
+        }
+    }
+}
+/* FIN NOTICIAS */
+/* INICIO PERSONAJES */
+.mainPersonajes{
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    .objetivos{
+        color: rgb(221, 245, 255);
+        padding-bottom: 2vh;
+        .objetivos__categoria{
+            color:skyblue;
+            text-align: center;
+            font-family: 'Encode Sans SC', sans-serif;
+            text-decoration: underline;
+            padding-bottom: 2vh;
+            padding-top: 2vh;
+        }
+    }
+    .personaje{
+        color:rgb(221, 245, 255);
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border-top: 1px solid rgb(48, 48, 48);
+        border-bottom: 1px solid rgb(48, 48, 48);
+        .personaje__nombre{
+            padding-bottom: 2vh;
+        }
+    }
+}
+/* FIN PERSONAJES */
+/* INICIO CAPITULOS */
+.mainCapitulos{
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    .contenedorCapitulos{
+        height: auto;
+        .contenedorCapitulos__capitulo{
+            border: 1px black dashed;
+            height: 46vh;
+            margin-top: 2vh;
+            margin-bottom: 3vh;
+            padding: 0;
+            transition: height 2s;
+        }
+        .contenedorCapitulos__capitulo:hover{
+            height: 55vh;
+        }
+    }
+}
+/* FIN CAPITULOS */
+/* INICIO VENTAJAS */
+.mainVentajas{
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    .categoriaVentaja{
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        border-top: rgb(48, 48, 48) 1px solid;
+        .categoriaVentaja__titulo{
+            color:skyblue;
+            text-align: center;
+            font-family: 'Encode Sans SC', sans-serif;
+            text-decoration: underline;
+            padding-bottom: 2vh;
+        }
+    }
+}
+/* FIN VENTAJAS */
+/* INICIO MAPAS */
+.mainMapas{
+    text-align: center;
+    border-top: black 1px solid;
+    border-bottom: black 2px solid;
+    .infoReinos{
+        color: rgb(221, 245, 255);
+        text-align: left;
+        margin-top: 2vh;
+        .infoReinos__titulo{
+            color: skyblue;
+            text-align: left;
+            font-family: 'Encode Sans SC', sans-serif;
+            text-decoration: underline;
+        }
+    }
+    .reino{
+        color: rgb(221, 245, 255);
+        text-align: left;
+        border-top: rgb(48, 48, 48) 1px solid;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        .reino__nombre{
+            color: skyblue;
+            text-align: left;
+            font-family: 'Encode Sans SC', sans-serif;
+            text-decoration: underline;
+        }
+        ul{
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+        }
+    }
+}
+/* FIN MAPAS */
+/* INICIO SANTUARIO */
+.mainSantuario{
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    .pies-ligeros, .voluntad-hierro, .escalofrios, .caza-menor{
+        color:rgb(221, 245, 255);
+        text-align: center;
+        border-top: rgb(48, 48, 48) 1px solid;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        .ventaja__nombre{
+            color:skyblue;
+            font-family: 'Encode Sans SC', sans-serif;
+            text-decoration: underline;
+        }
+        .ventaja__imagen{
+        height: 17vh;
+        width: 15vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        }
+    }
+}
+/* FIN SANTUARIO */
+/* INICIO ERROR 404 */
+.mainError404{
+    text-align: center;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    color: white;
+    .descripcionError404{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        a{
+            color: white;
+        }
+        a:hover{
+            color: red;
+        }
+    }
+    .campeo{
+        img{
+            width: 100vh;
+            height: 60vh;
+        }
+    }
+}
+/* FIN ERROR 404 */

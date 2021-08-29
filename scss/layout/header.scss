@@ -1,0 +1,27 @@
+/* INICIO HEADER */
+.contenedorNombrePagina{
+    font-size: 4vh;
+    background-color: black;
+    border-bottom: 1px solid rgb(27, 0, 0);
+    color: rgb(136, 1, 1);
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    h1{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+}
+.navbar-dark{
+    height: auto;
+    background-color: black;
+    .navbar-nav{
+        .nav-link{
+            color: red !important;
+            font-size: 3vh;
+        }
+        .nav-link:hover{
+            color: crimson !important;
+        }
+    }
+}
+/* FIN HEADER */

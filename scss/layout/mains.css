@@ -1,0 +1,292 @@
+/* INICIO INDEX */
+.mainIndex {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.mainIndex .novedades {
+  background-color: #691000;
+  color: skyblue;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+  padding-top: 1vh;
+}
+
+.mainIndex .novedades .novedades__novedad {
+  border-bottom: black 1px solid;
+}
+
+.mainIndex .novedades .novedades__novedad h3 {
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.mainIndex .novedades .novedades__novedad .imgNovedad {
+  height: 62vh;
+  width: 75vh;
+  margin-bottom: 2vh;
+}
+
+.mainIndex .novedades .novedades__novedad a {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainIndex .ultimosCapitulos {
+  background-color: #691000;
+  color: skyblue;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+  padding-bottom: 2vh;
+}
+
+.mainIndex .ultimosCapitulos .carousel-item img {
+  width: 77vh;
+  height: 62vh;
+}
+
+/* FIN INDEX */
+/* INICIO NOTICIAS */
+.mainNoticias {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.mainNoticias .noticia {
+  color: #ddf5ff;
+  text-align: left;
+  border-bottom: solid black 1px;
+  padding-bottom: 2vh;
+}
+
+.mainNoticias .noticia .noticia__titulo {
+  color: skyblue;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 0;
+}
+
+.mainNoticias .noticia p {
+  margin: 0;
+}
+
+.mainNoticias .noticia .noticia__subtitulo {
+  text-align: center;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  margin: 0;
+}
+
+.mainNoticias .noticia .noticia__imagenPrincipal {
+  height: 62vh;
+  width: 80vh;
+  margin: auto;
+  display: block;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.mainNoticias .noticia .noticia__imagen {
+  height: 62vh;
+  width: 80vh;
+  margin: auto;
+  display: block;
+  padding-top: 2vh;
+}
+
+.mainNoticias .formulario {
+  background-color: #691000;
+  color: whitesmoke;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-family: 'Encode Sans SC', sans-serif;
+}
+
+.mainNoticias .formulario .itemFormulario {
+  margin-bottom: 1vh;
+}
+
+/* FIN NOTICIAS */
+/* INICIO PERSONAJES */
+.mainPersonajes {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.mainPersonajes .objetivos {
+  color: #ddf5ff;
+  padding-bottom: 2vh;
+}
+
+.mainPersonajes .objetivos .objetivos__categoria {
+  color: skyblue;
+  text-align: center;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.mainPersonajes .personaje {
+  color: #ddf5ff;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+}
+
+.mainPersonajes .personaje .personaje__nombre {
+  padding-bottom: 2vh;
+}
+
+/* FIN PERSONAJES */
+/* INICIO CAPITULOS */
+.mainCapitulos {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.mainCapitulos .contenedorCapitulos {
+  height: auto;
+}
+
+.mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo {
+  border: 1px black dashed;
+  height: 46vh;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  padding: 0;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+}
+
+.mainCapitulos .contenedorCapitulos .contenedorCapitulos__capitulo:hover {
+  height: 55vh;
+}
+
+/* FIN CAPITULOS */
+/* INICIO VENTAJAS */
+.mainVentajas {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.mainVentajas .categoriaVentaja {
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  border-top: #303030 1px solid;
+}
+
+.mainVentajas .categoriaVentaja .categoriaVentaja__titulo {
+  color: skyblue;
+  text-align: center;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+  padding-bottom: 2vh;
+}
+
+/* FIN VENTAJAS */
+/* INICIO MAPAS */
+.mainMapas {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 2px solid;
+}
+
+.mainMapas .infoReinos {
+  color: #ddf5ff;
+  text-align: left;
+  margin-top: 2vh;
+}
+
+.mainMapas .infoReinos .infoReinos__titulo {
+  color: skyblue;
+  text-align: left;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+}
+
+.mainMapas .reino {
+  color: #ddf5ff;
+  text-align: left;
+  border-top: #303030 1px solid;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.mainMapas .reino .reino__nombre {
+  color: skyblue;
+  text-align: left;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+}
+
+.mainMapas .reino ul {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+/* FIN MAPAS */
+/* INICIO SANTUARIO */
+.mainSantuario {
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+.mainSantuario .pies-ligeros, .mainSantuario .voluntad-hierro, .mainSantuario .escalofrios, .mainSantuario .caza-menor {
+  color: #ddf5ff;
+  text-align: center;
+  border-top: #303030 1px solid;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.mainSantuario .pies-ligeros .ventaja__nombre, .mainSantuario .voluntad-hierro .ventaja__nombre, .mainSantuario .escalofrios .ventaja__nombre, .mainSantuario .caza-menor .ventaja__nombre {
+  color: skyblue;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+}
+
+.mainSantuario .pies-ligeros .ventaja__imagen, .mainSantuario .voluntad-hierro .ventaja__imagen, .mainSantuario .escalofrios .ventaja__imagen, .mainSantuario .caza-menor .ventaja__imagen {
+  height: 17vh;
+  width: 15vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+/* FIN SANTUARIO */
+/* INICIO ERROR 404 */
+.mainError404 {
+  text-align: center;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  color: white;
+}
+
+.mainError404 .descripcionError404 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.mainError404 .descripcionError404 a {
+  color: white;
+}
+
+.mainError404 .descripcionError404 a:hover {
+  color: red;
+}
+
+.mainError404 .campeo img {
+  width: 100vh;
+  height: 60vh;
+}
+
+/* FIN ERROR 404 */
+/*# sourceMappingURL=mains.css.map */
