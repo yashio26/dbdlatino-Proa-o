@@ -402,7 +402,13 @@ body {
       font-size: large; }
     .mainInfoCapitulo .capitulo__imagen {
       height: 40vh;
-      width: 40vh; } }
+      width: 40vh; }
+  .mainError404 .descripcionError404 {
+    padding-top: 5vh;
+    padding-bottom: 5vh; }
+  .mainError404 .campeo img {
+    width: 55vh;
+    height: 46vh; } }
 
 @media only screen and (max-width: 400px) {
   .contenedorNombrePagina h1 {
@@ -479,7 +485,14 @@ body {
       font-size: large; }
     .mainInfoCapitulo .capitulo__imagen {
       height: 40vh;
-      width: 40vh; } }
+      width: 40vh; }
+  .mainError404 .descripcionError404 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: xx-small; }
+  .mainError404 .campeo img {
+    width: 47vh;
+    height: 37vh; } }
 
 .pies-ligeros {
   background-image: url("../../imagenes/pies-ligeros.gif");

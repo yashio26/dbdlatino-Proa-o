@@ -219,6 +219,18 @@
             width: 40vh;
         }
     }
+    .mainError404{
+        .descripcionError404{
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+        }
+        .campeo{
+            img{
+                width: 55vh;
+                height: 46vh;
+            }
+        }
+    }
 }
 
 
@@ -370,6 +382,19 @@
         .capitulo__imagen{
             height: 40vh;
             width: 40vh;
+        }
+    }
+    .mainError404{
+        .descripcionError404{
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+            font-size: xx-small;
+        }
+        .campeo{
+            img{
+                width: 47vh;
+                height: 37vh;
+            }
         }
     }
 }
