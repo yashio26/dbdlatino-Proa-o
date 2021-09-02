@@ -161,12 +161,14 @@
     }
     /* CAPITULOS */
     .mainCapitulos{
-        .contenedorCapitulos{
-            .contenedorCapitulos__capitulo{
-                height: 20vh;
-            }
-            .contenedorCapitulos__capitulo:hover{
-                height: 30vh;
+        .capitulos{
+            .contenedorCapitulo{
+                .contenedorCapitulo__capitulo{
+                    height: 20vh;
+                }
+                .contenedorCapitulo__capitulo:hover{
+                    height: 30vh;
+                }
             }
         }
     }
@@ -196,6 +198,25 @@
             .ventaja__nombre{
                 font-size: medium;
             }
+        }
+    }
+    .mainInfoCapitulo{
+        color: rgb(221, 245, 255);
+        text-align: left;
+        border-bottom: solid black 1px;
+        padding-bottom: 2vh;
+        .capitulo__nombre{
+            font-size: large;
+        }
+        p{
+            font-size: small;
+        }
+        .capitulo__subtitulo{
+            font-size: large;
+        }
+        .capitulo__imagen{
+            height: 40vh;
+            width: 40vh;
         }
     }
 }
@@ -297,12 +318,14 @@
     }
     /* CAPITULOS */
     .mainCapitulos{
-        .contenedorCapitulos{
-            .contenedorCapitulos__capitulo{
-                height: 20vh;
-            }
-            .contenedorCapitulos__capitulo:hover{
-                height: 30vh;
+        .capitulos{
+            .contenedorCapitulo{
+                .contenedorCapitulo__capitulo{
+                    height: 20vh;
+                }
+                .contenedorCapitulo__capitulo:hover{
+                    height: 30vh;
+                }
             }
         }
     }
@@ -328,6 +351,25 @@
             .ventaja__nombre{
                 font-size: medium;
             }
+        }
+    }
+    .mainInfoCapitulo{
+        color: rgb(221, 245, 255);
+        text-align: left;
+        border-bottom: solid black 1px;
+        padding-bottom: 2vh;
+        .capitulo__nombre{
+            font-size: large;
+        }
+        p{
+            font-size: small;
+        }
+        .capitulo__subtitulo{
+            font-size: large;
+        }
+        .capitulo__imagen{
+            height: 40vh;
+            width: 40vh;
         }
     }
 }

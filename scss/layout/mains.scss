@@ -22,8 +22,6 @@
             }
             a{
                 margin-top: 2vh;
-                margin-bottom: 2vh;
-                align-items: center;
             }
         }
     }
@@ -127,18 +125,21 @@
 .mainCapitulos{
     border-top: black 1px solid;
     border-bottom: black 1px solid;
-    .contenedorCapitulos{
+    .capitulos{
         height: auto;
-        .contenedorCapitulos__capitulo{
-            border: 1px black dashed;
-            height: 46vh;
+        .contenedorCapitulo{
             margin-top: 2vh;
-            margin-bottom: 3vh;
+            margin-bottom: 2vh;
             padding: 0;
-            transition: height 2s;
-        }
-        .contenedorCapitulos__capitulo:hover{
-            height: 55vh;
+            .contenedorCapitulo__capitulo{
+                border: 1px black dashed;
+                height: 46vh;
+                padding: 0;
+                transition: height 2s;
+            }
+            .contenedorCapitulo__capitulo:hover{
+                height: 55vh;
+            }
         }
     }
 }
@@ -220,6 +221,39 @@
     }
 }
 /* FIN SANTUARIO */
+/* INICIO INFO DE CAPITULOS */
+.mainInfoCapitulo{
+    color: rgb(221, 245, 255);
+    text-align: left;
+    border-bottom: solid black 1px;
+    padding-bottom: 2vh;
+    .capitulo__nombre{
+        color:skyblue;
+        font-family: 'Encode Sans SC', sans-serif;
+        text-decoration: underline;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        margin: 0;
+        text-align: center;
+    }
+    p{
+        margin: 0;
+    }
+    .capitulo__subtitulo{
+        text-align: center;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        margin: 0;
+    }
+    .capitulo__imagen{
+        height: 62vh;
+        width: 80vh;
+        margin: auto;
+        display: block;
+        padding-top: 2vh;
+    }
+}
+/* FIN INFO DE CAPITULOS */
 /* INICIO ERROR 404 */
 .mainError404{
     text-align: center;
