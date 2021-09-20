@@ -20,7 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </head>
+</head>
 
 <body>
     <header class="container-fluid">
@@ -77,13 +77,24 @@
                     <li>Abandonar el mapa.</li>
                 </ul>
                 <p>Mientras tanto, el asesino intentará localizar, capturar y colgar a los
-                    sobrevivientes para sacrificarlos al Ente. Aunque los sobrevivientes son vulnerables, tienen un conjunto
+                    sobrevivientes para sacrificarlos al Ente. Aunque los sobrevivientes son vulnerables, tienen un
+                    conjunto
                     básico de habilidades muy útiles para esconderse y escapar del asesino.</p>
             </div>
         </div>
         <div class="row">
             <div class="personaje col-xl-12">
-                <h3 class="personaje__nombre">Jake Park</h3>
+                <h3 class="personaje__nombre" id="jakePark">Jake Park</h3>
+                <p>Ser hijo de un acaudalado empresario siempre iba a suponer una gran presión para Jake Park. La
+                    situación se hizo todavía peor cuando su hermano se graduó cum laude en Yale. A Jake no le
+                    interesaban los estudios, pero su padre nunca entendió su intención de desaprovechar la carísima
+                    educación que le estaba brindando. Jake acabó por rebelarse y abandonó los estudios completamente.
+                    Ahora vive como un vagabundo en el lindero del bosque. Lleva años sin hablarse con su padre, pero su
+                    madre lo visita de vez en cuando. Fue ella quien avisó a la policía.
+                    La policía dijo que se había perdido en el bosque y organizaron grupos de búsqueda durante varios
+                    días, pero desistieron cuando llegó el mal tiempo. Pese a las desesperadas súplicas de su madre,
+                    nunca reanudaron la búsqueda, y Jake pasó a la historia como una víctima más del bosque.</p>
+                <h4>Ventajas</h4>
                 <table border="2" cellspacing="1" cellpadding="5" class="tabla">
                     <tr>
                         <th class="tituloTabla">Habilidades</th>
@@ -91,10 +102,10 @@
                         <th class="tituloTabla">Nivel de habilidad</th>
                     </tr>
                     <tr>
-                        <td>Espiritu calmado</td>
-                        <td>Parece que los animales confían en ti, ya que mantienen la calma en tu
+                        <td class="col-2">Espiritu calmado</td>
+                        <td class="col-5">Parece que los animales confían en ti, ya que mantienen la calma en tu
                             presencia.</td>
-                        <td>
+                        <td class="col-5">
                             <ol>
                                 <li>Reduce un 80% la probabilidad de alertar a criaturas del bosque.</li>
                                 <li>Reduce un 90% la probabilidad de alertar a criaturas del bosque.</li>
@@ -109,9 +120,9 @@
                             Permite sabotear ganchos sin necesidad de tener una caja de herramientas</td>
                         <td>
                             <ol>
-                                <li>Sabotaje tiene un tiempo de recarga de 10 segundos</li>
-                                <li>Sabotaje tiene un tiempo de recarga de 20 segundos</li>
-                                <li>Sabotaje tiene un tiempo de recarga de 30 segundos</li>
+                                <li>Sabotaje tiene un tiempo de recarga de 10 segundos.</li>
+                                <li>Sabotaje tiene un tiempo de recarga de 20 segundos.</li>
+                                <li>Sabotaje tiene un tiempo de recarga de 30 segundos.</li>
                             </ol>
                         </td>
                     </tr>
@@ -120,7 +131,18 @@
         </div>
         <div class="row">
             <div class="personaje col-xl-12">
-                <h3 class="personaje__nombre">Claudette Morel</h3>
+                <h3 class="personaje__nombre" id="claudetteMorel">Claudette Morel</h3>
+                <p>A Claudette le llevan fascinando los experimentos científicos desde el día en el que sus padres le
+                    regalaron su primer equipo científico. Su gran pasión la llevó a aceptar una beca en una prestigiosa
+                    universidad. Dejar Montreal fue una decisión dura, pero era una oportunidad demasiado buena como
+                    para desaprovecharla.
+                    Dada su personalidad introvertida, prefiere socializar mediante chats y foros de Internet. Su nuevo
+                    pasatiempo favorito es responder a preguntas de botánica usando su alias "Cientíchica".
+                    Una noche, en medio de un largo viaje en autobús de regreso de la ciudad, Claudette se puso a dar un
+                    paseo que cambiaría su vida para siempre. En cuestión de minutos, se desorientó por completo en el
+                    espesor del bosque, y no volvió a salir de él. Los miembros del foro no se empezaron a preguntar que
+                    habría sido de ella hasta que pasó una semana sin publicar nada.</p>
+                <h4>Ventajas</h4>
                 <table border="2" cellspacing="1" cellpadding="5" class="tabla">
                     <tr>
                         <th class="tituloTabla">Habilidades</th>
@@ -128,10 +150,10 @@
                         <th class="tituloTabla">Nivel de habilidad</th>
                     </tr>
                     <tr>
-                        <td>Empatía</td>
-                        <td>Las auras de aliados agonizantes o heridos se te revelan, a menos que estén
+                        <td class="col-2">Empatía</td>
+                        <td class="col-5">Las auras de aliados agonizantes o heridos se te revelan, a menos que estén
                             en contacto directo con el asesino.</td>
-                        <td>
+                        <td class="col-5">
                             <ol>
                                 <li>Las auras se revelan en un radio de 64 metros.</li>
                                 <li>Las auras se revelan en un radio de 96 metros.</li>
@@ -161,20 +183,89 @@
             <div class="objetivos col-xl-12">
                 <h3 class="objetivos__categoria">ASESINOS</h3>
                 <p>Los asesinos han sido encargados por el Ente, el objetivo de cazar y sacrificar a cada sobreviviente
-                    antes de que puedan escapar. Para conseguir este objetivo, un asesino debería hacer lo siguiente:</p>
+                    antes de que puedan escapar. Para conseguir este objetivo, un asesino debería hacer lo siguiente:
+                </p>
                 <ul>
                     <li> Patrullar el área y encontrar sobrevivientes.</li>
                     <li> Perseguir, dañar y atrapar a los sobrevivientes antes de que escapen.</li>
                     <li> Llevar a los sobrevivientes a un gancho de sacrificio y colgarlos para que el Ente los consuma.
                     </li>
                 </ul>
-                <p>Mientras tanto, los sobrevivientes tratarán de reparar 5 generadores para activar las 2 puertas de salida
+                <p>Mientras tanto, los sobrevivientes tratarán de reparar 5 generadores para activar las 2 puertas de
+                    salida
                     para escapar. Los asesinos deberían hacer lo que esté en su mano para pararlos.</p>
             </div>
         </div>
         <div class="row">
             <div class="personaje col-xl-12">
-                <h3 class="personaje__nombre">El Arponero</h3>
+                <h3 class="personaje__nombre" id="arponero">El Arponero</h3>
+                <p>Nacido en las polvorientas tierras baldías del Medio Oeste americano, Caleb Quinn se crio en el seno
+                    de una humilde familia de inmigrantes irlandeses. En los límites de la frontera, la enfermedad, el
+                    hambre y la muerte eran compañeras habituales, y los pioneros se enfrentaban entre sí por cualquier
+                    migaja mientras los magnates vivían entre el lujo y las ostentaciones. El padre de Caleb, antiguo
+                    ingeniero, tenía pocas posibilidades de ejercer su oficio debido a los carteles que colgaban
+                    habitualmente en cualquier negocio: "No se aceptan irlandeses". Sus anticuadas herramientas llevaban
+                    muchos años sin usarse cuando Caleb las descubrió. Al darse cuenta del interés que su hijo mostraba
+                    en el oficio, le regaló su vieja llave inglesa. <br>
+                    Los dispositivos que Caleb creó bajo la tutela de su padre tenían utilidades pintorescas, pero
+                    cuando su padre no estaba, adquirían unas connotaciones más oscuras. Ocultó los planos de una
+                    máscara que incrustaba púas espinosas en los ojos y los arrancaba de sus cuencas, con bocetos de
+                    cómo se la colocaría a los niños que lo acosaban. <br>
+                    Con la edad, las habilidades de ingeniero de Caleb ganaron valor comercial y las empresas dejaron a
+                    un lado sus prejuicios. Henry Bayshore, el propietario de United West Rail, lo contrató. <br>
+                    El primer invento de Caleb allí fue una pistola de clavos para las vías del ferrocarril.
+                    Posteriormente, diseñó un taladro tunelador de vapor. A pesar de que Bayshore fingía no darles
+                    importancia, los dispositivos empezaron a aparecer en otras compañías. Le había robado las patentes
+                    a Caleb y las había vendido. <br>
+                    Una sensación ya conocida le recorrió las venas y alimentó el dolor agudo que albergaba en su
+                    corazón. Incluso entonces, luchaba por las migajas mientras los ricos se beneficiaban de su trabajo
+                    intelectual. La ira se apoderó de él: entró en la oficina de Bayshore y le destrozó la cara hasta
+                    convertirla en una pulpa sangrienta. Mientras lo apartaban de él, Caleb empujó su pistola contra el
+                    abdomen de su jefe y apretó el gatillo. Un clavo de ferrocarril se abrió paso a través de piel y
+                    vísceras hasta dejar clavado a Bayshore a su mesa. <br>
+                    Lo único que salvó a Caleb de la horca fue que, increíblemente, Bayshore sobrevivió. Caleb pasó
+                    quince años confinado en la penitenciaría de Hellshire, la primera cárcel privada del país. En una
+                    fortaleza plagada de convictos analfabetos, forjó una inesperada amistad con el alcaide. Diseñaba
+                    aparatos de tortura para él a cambio de comida extra. Tras un tiempo, el alcaide le ofreció conmutar
+                    su pena. Habló de algo más importante que la riqueza económica: el poder político. Sus contactos
+                    podían incriminar a Bayshore y hacer que se pudriera entre rejas de por vida. Solo pedía una cosa a
+                    cambio: que lo hiciera rico. Que usase su ingenio para llenar la prisión de forajidos con vida. <br>
+                    Caleb volvió a su taller y con unas pocas modificaciones inventó algo nuevo: el lanzaarpones. La
+                    primera prueba fue cuando un ladrón robó en una lavandería china. Aprovechando la oportunidad, Caleb
+                    estrenó su prototipo. Las juntas de metal chirriaron cuando el proyectil salió disparado y se
+                    incrustó en el abdomen de su objetivo. Al tirar del arpón, este se agarró a los intestinos del pobre
+                    infeliz y, con un sonido sobrecogedor, los desparramó sobre el camino polvoriento. <br>
+                    Tras varias pruebas, los destripamientos menguaron. El alcaide usó sus contactos y liberó a más
+                    convictos irlandeses, quienes pasaron a conformar la cuadrilla de Caleb. Había nacido la banda de
+                    Hellshire. <br>
+                    Recorrieron todo el país durante seis años aprehendiendo a forajidos para cumplir con su parte del
+                    trato. Tras una sangrienta batalla en Glenvale, Caleb descubrió un titular en el periódico: "Henry
+                    Bayshore compra la penitenciaria de Hellshire. En la fotografía, un Bayshore desfigurado le
+                    estrechaba la mano al alcaide con orgullo. El corazón de Caleb comenzó a latir con furia, bombeando
+                    sangre como si fuera a salírsele de las venas. Lo había vendido, había sido un peón en el juego de
+                    un rico. <br>
+                    La banda de Hellshire juró lealtad a Caleb y pidió la cabeza del alcaide. A todo galope, irrumpieron
+                    por la entrada a la prisión, gritando como saqueadores sedientos de sangre. Un guardia alzo la
+                    pistola, pero vaciló. Un arpón le perforó el pecho. Caleb le cogió la cabeza y la estampó contra una
+                    celda hasta que cupo entre las rejas. <br>
+                    Al llegar al despacho del alcaide, Caleb echó abajo la puerta y tuvo la agradable sorpresa de
+                    encontrar a Henry Bayshore junto al alcaide, que se encogía de miedo en una esquina. Dominado por la
+                    rabia, Caleb fue directo a por Bayshore. Lo golpeó, lo apaleó, le desgarró la carne. La sangre le
+                    caía copiosamente por la cara y formaba un charco carmesí a sus pies. La banda de Hellshire se
+                    abalanzó sobre el alcaide y le rompió los huesos a patadas. <br>
+                    Los dos hombres estaban destrozados y suplicaban por que acabaran con sus vidas; la banda los
+                    arrastró hasta el comedor y se los entregó a los prisioneros. <br>
+                    Empapado de sangre y sudor, Caleb se arrastró cojeando hasta su antigua celda, sin prestar atención
+                    a los gritos de Bayshore. Se sentó al borde de la cama y observó las gotas de sangre que caían de
+                    entre sus dedos. Una niebla gruesa y antinatural entró por la ventana enrejada. Sacó su vieja llave
+                    inglesa oxidada y recorrió el metal con el pulgar, estudiándolo con los ojos perdidos. No conseguía
+                    recordar cuándo la había conseguido. No le importaba. A sus pies vio un camino polvoriento y, a su
+                    final, siluetas de todo el que le había hecho daño: los niños que lo acosaron, los ejecutivos que se
+                    aprovecharon de él y, de nuevo... Henry Bayshore. De la niebla emergieron las herramientas para
+                    librarse de ellos: despiadados garfios de metal, brillantes y hermosos en su simplicidad. El dolor
+                    le perforó la pierna al ponerse de pie, pero lo resistió y siguió adelante por el sendero
+                    polvoriento, dejando un rastro de sangre tras de sí.</p>
+                <h4>Ventajas</h4>
                 <table border="2" cellspacing="1" cellpadding="5" class="tabla">
                     <tr>
                         <th class="tituloTabla">Descripcion</th>
@@ -182,12 +273,11 @@
                         <th class="tituloTabla">Habilidades</th>
                     </tr>
                     <tr>
-                        <td>Oído para la maquinaria </td>
-                        <td>Tienes oído para engranajes bien engrasados. Después de golpear a un sobreviviente 2 veces con
-                            tu
-                            ataque básico, la habilidad se activa. Cada vez que un sobreviviente completa una prueba
+                        <td class="col-2">Oído para la maquinaria </td>
+                        <td class="col-5">Tienes oído para engranajes bien engrasados. Después de golpear a un sobreviviente 2 veces 
+                            con tu ataque básico, la habilidad se activa. Cada vez que un sobreviviente completa una prueba
                             de habilidad mientras repara, el generador será revelado por un aura amarilla.</td>
-                        <td>
+                        <td class="col-5">
                             <ol>
                                 <li>Se activa durante 20 segundos.</li>
                                 <li>Se activa durante 25 segundos.</li>
@@ -197,9 +287,11 @@
                     </tr>
                     <tr>
                         <td>Interruptor de hombre muerto</td>
-                        <td>Mientras está activado, cualquier sobreviviente que deje de reparar un generador antes de que
+                        <td>Mientras está activado, cualquier sobreviviente que deje de reparar un generador antes de
+                            que
                             esté
-                            completamente reparado hace que La Entidad bloquee el generador hasta que finalice el efecto.
+                            completamente reparado hace que La Entidad bloquee el generador hasta que finalice el
+                            efecto.
                         </td>
                         <td>
                             <ol>

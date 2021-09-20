@@ -1,8 +1,0 @@
-@each $varventaja in pies-ligeros, voluntad-hierro, escalofrios, caza-menor {
-    .#{$varventaja}{
-        background-image: url("../../imagenes/#{$varventaja}.gif");
-        background-size: 20vh 18vh;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-}

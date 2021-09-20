@@ -190,6 +190,9 @@
             .reino__nombre{
                 font-size: medium;
             }
+            .imagenMapa{
+                width: 45vh;
+            }
         }
     }
     /* SANTUARIO */
@@ -269,7 +272,7 @@
                 }
                 .imgNovedad{
                     height: 35vh;
-                    width: 45vh;
+                    width: 42vh;
                 }
             }
         }
@@ -288,20 +291,25 @@
     }
     /* NOTICIAS */
     .mainNoticias{
+        p{
+            font-size: small;
+        }
         .noticia{
+            padding:0;
             .noticia__titulo{
                 font-size: medium;
+                padding: 0;
             }
             .noticia__subtitulo{
                 font-size: medium;
             }
             .noticia__imagenPrincipal{
                 height: 40vh;
-                width: 45vh;
+                width: 42vh;
             }
             .noticia__imagen{
                 height: 40vh;
-                width: 45vh;
+                width: 42vh;
             }
         }
         .formulario{
@@ -313,6 +321,9 @@
     }
     /* PERSONAJES */
     .mainPersonajes{
+        p{
+            font-size: small;
+        }
         .objetivos{
             font-size: small;
             .objetivos__categoria{
@@ -343,6 +354,9 @@
     }
     /* MAPAS */
     .mainMapas{
+        p{
+            font-size: small;
+        }
         .infoReinos{
             .infoReinos__titulo{
                 font-size: medium;
@@ -354,6 +368,9 @@
             }
             .reino__nombre{
                 font-size: medium;
+            }
+            .imagenMapa{
+                width: 39vh;
             }
         }
     }
@@ -392,7 +409,7 @@
         }
         .campeo{
             img{
-                width: 47vh;
+                width: 42vh;
                 height: 37vh;
             }
         }

@@ -4,7 +4,6 @@
     border-top: black 1px solid;
     border-bottom: black 1px solid;
     .novedades{ 
-        background-color: rgb(105, 16, 0);
         color: skyblue;
         font-family: 'Encode Sans SC', sans-serif;
         text-decoration: underline;  
@@ -19,6 +18,7 @@
                 height: 62vh;
                 width: 75vh;
                 margin-bottom: 2vh;
+                border: black 2px solid;
             }
             a{
                 margin-top: 2vh;
@@ -26,7 +26,6 @@
         }
     }
     .ultimosCapitulos{
-        background-color: rgb(105, 16, 0);
         color: skyblue;
         font-family: 'Encode Sans SC', sans-serif;
         text-decoration: underline;
@@ -34,6 +33,7 @@
         .carousel-item img{
             width: 77vh;
             height: 62vh;
+            border: 2px black solid;
         }
     }
 }
@@ -55,12 +55,12 @@
             padding-top: 2vh;
             padding-bottom: 2vh;
             margin: 0;
+            text-align: center;
         }
         p{
             margin: 0;
         }
         .noticia__subtitulo{
-            text-align: center;
             padding-bottom: 2vh;
             padding-top: 2vh;
             margin: 0;
@@ -132,7 +132,7 @@
             margin-bottom: 2vh;
             padding: 0;
             .contenedorCapitulo__capitulo{
-                border: 1px black dashed;
+                border: 1vh rgb(105, 16, 0) solid;
                 height: 46vh;
                 padding: 0;
                 transition: height 2s;
@@ -173,7 +173,7 @@
         margin-top: 2vh;
         .infoReinos__titulo{
             color: skyblue;
-            text-align: left;
+            text-align: center;
             font-family: 'Encode Sans SC', sans-serif;
             text-decoration: underline;
         }
@@ -186,7 +186,7 @@
         padding-bottom: 2vh;
         .reino__nombre{
             color: skyblue;
-            text-align: left;
+            text-align: center;
             font-family: 'Encode Sans SC', sans-serif;
             text-decoration: underline;
         }
@@ -213,8 +213,8 @@
             text-decoration: underline;
         }
         .ventaja__imagen{
-        height: 17vh;
-        width: 15vh;
+        height: 19vh;
+        width: 18vh;
         padding-top: 2vh;
         padding-bottom: 2vh;
         }

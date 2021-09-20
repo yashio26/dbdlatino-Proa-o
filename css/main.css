@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
 body {
   background: linear-gradient(to bottom, #303030, #230000); }
   body * {
@@ -7,7 +12,8 @@ body {
     list-style-type: none; }
   body .descripcionPagina {
     border-bottom: black 1px solid;
-    padding-bottom: 1vh; }
+    padding-bottom: 1vh;
+    background-color: #691000; }
     body .descripcionPagina .descripcionPagina__titulo {
       text-align: center;
       color: white;
@@ -22,9 +28,12 @@ body {
   body .tabla {
     text-align: center;
     background-color: #160000;
-    color: #c78917; }
+    color: #c78917;
+    margin: 1vh; }
     body .tabla .tituloTabla {
       color: orange; }
+      body .tabla .tituloTabla a {
+        color: orange; }
   body footer p {
     margin-bottom: 0;
     text-align: center;
@@ -60,7 +69,6 @@ body {
   border-top: black 1px solid;
   border-bottom: black 1px solid; }
   .mainIndex .novedades {
-    background-color: #691000;
     color: skyblue;
     font-family: 'Encode Sans SC', sans-serif;
     text-decoration: underline;
@@ -73,18 +81,19 @@ body {
       .mainIndex .novedades .novedades__novedad .imgNovedad {
         height: 62vh;
         width: 75vh;
-        margin-bottom: 2vh; }
+        margin-bottom: 2vh;
+        border: black 2px solid; }
       .mainIndex .novedades .novedades__novedad a {
         margin-top: 2vh; }
   .mainIndex .ultimosCapitulos {
-    background-color: #691000;
     color: skyblue;
     font-family: 'Encode Sans SC', sans-serif;
     text-decoration: underline;
     padding-bottom: 2vh; }
     .mainIndex .ultimosCapitulos .carousel-item img {
       width: 77vh;
-      height: 62vh; }
+      height: 62vh;
+      border: 2px black solid; }
 
 /* FIN INDEX */
 /* INICIO NOTICIAS */
@@ -103,11 +112,11 @@ body {
       text-decoration: underline;
       padding-top: 2vh;
       padding-bottom: 2vh;
-      margin: 0; }
+      margin: 0;
+      text-align: center; }
     .mainNoticias .noticia p {
       margin: 0; }
     .mainNoticias .noticia .noticia__subtitulo {
-      text-align: center;
       padding-bottom: 2vh;
       padding-top: 2vh;
       margin: 0; }
@@ -169,7 +178,7 @@ body {
       margin-bottom: 2vh;
       padding: 0; }
       .mainCapitulos .capitulos .contenedorCapitulo .contenedorCapitulo__capitulo {
-        border: 1px black dashed;
+        border: 1vh #691000 solid;
         height: 46vh;
         padding: 0;
         transition: height 2s; }
@@ -204,7 +213,7 @@ body {
     margin-top: 2vh; }
     .mainMapas .infoReinos .infoReinos__titulo {
       color: skyblue;
-      text-align: left;
+      text-align: center;
       font-family: 'Encode Sans SC', sans-serif;
       text-decoration: underline; }
   .mainMapas .reino {
@@ -215,7 +224,7 @@ body {
     padding-bottom: 2vh; }
     .mainMapas .reino .reino__nombre {
       color: skyblue;
-      text-align: left;
+      text-align: center;
       font-family: 'Encode Sans SC', sans-serif;
       text-decoration: underline; }
     .mainMapas .reino ul {
@@ -238,8 +247,8 @@ body {
       font-family: 'Encode Sans SC', sans-serif;
       text-decoration: underline; }
     .mainSantuario .pies-ligeros .ventaja__imagen, .mainSantuario .voluntad-hierro .ventaja__imagen, .mainSantuario .escalofrios .ventaja__imagen, .mainSantuario .caza-menor .ventaja__imagen {
-      height: 17vh;
-      width: 15vh;
+      height: 19vh;
+      width: 18vh;
       padding-top: 2vh;
       padding-bottom: 2vh; }
 
@@ -386,6 +395,8 @@ body {
     font-size: medium; }
   .mainMapas .reino .reino__nombre {
     font-size: medium; }
+  .mainMapas .reino .imagenMapa {
+    width: 45vh; }
   /* SANTUARIO */
   .mainSantuario .pies-ligeros .ventaja__nombre, .mainSantuario .voluntad-hierro .ventaja__nombre, .mainSantuario .escalofrios .ventaja__nombre, .mainSantuario .caza-menor .ventaja__nombre {
     font-size: medium; }
@@ -425,7 +436,7 @@ body {
     font-size: small; }
   .mainIndex .novedades .novedades__novedad .imgNovedad {
     height: 35vh;
-    width: 45vh; }
+    width: 42vh; }
   .mainIndex .ultimosCapitulos h3 {
     font-size: small; }
   .mainIndex .ultimosCapitulos .carousel-item img {
@@ -434,21 +445,28 @@ body {
   footer p {
     font-size: small; }
   /* NOTICIAS */
-  .mainNoticias .noticia .noticia__titulo {
-    font-size: medium; }
-  .mainNoticias .noticia .noticia__subtitulo {
-    font-size: medium; }
-  .mainNoticias .noticia .noticia__imagenPrincipal {
-    height: 40vh;
-    width: 45vh; }
-  .mainNoticias .noticia .noticia__imagen {
-    height: 40vh;
-    width: 45vh; }
+  .mainNoticias p {
+    font-size: small; }
+  .mainNoticias .noticia {
+    padding: 0; }
+    .mainNoticias .noticia .noticia__titulo {
+      font-size: medium;
+      padding: 0; }
+    .mainNoticias .noticia .noticia__subtitulo {
+      font-size: medium; }
+    .mainNoticias .noticia .noticia__imagenPrincipal {
+      height: 40vh;
+      width: 42vh; }
+    .mainNoticias .noticia .noticia__imagen {
+      height: 40vh;
+      width: 42vh; }
   .mainNoticias .formulario {
     font-size: small; }
     .mainNoticias .formulario .itemFormulario {
       font-size: medium; }
   /* PERSONAJES */
+  .mainPersonajes p {
+    font-size: small; }
   .mainPersonajes .objetivos {
     font-size: small; }
     .mainPersonajes .objetivos .objetivos__categoria {
@@ -463,12 +481,16 @@ body {
   .mainCapitulos .capitulos .contenedorCapitulo .contenedorCapitulo__capitulo:hover {
     height: 30vh; }
   /* MAPAS */
+  .mainMapas p {
+    font-size: small; }
   .mainMapas .infoReinos .infoReinos__titulo {
     font-size: medium; }
   .mainMapas .reino h3 {
     font-size: medium; }
   .mainMapas .reino .reino__nombre {
     font-size: medium; }
+  .mainMapas .reino .imagenMapa {
+    width: 39vh; }
   /* SANTUARIO */
   .mainSantuario .pies-ligeros .ventaja__nombre, .mainSantuario .voluntad-hierro .ventaja__nombre, .mainSantuario .escalofrios .ventaja__nombre, .mainSantuario .caza-menor .ventaja__nombre {
     font-size: medium; }
@@ -491,29 +513,5 @@ body {
     padding-bottom: 5vh;
     font-size: xx-small; }
   .mainError404 .campeo img {
-    width: 47vh;
+    width: 42vh;
     height: 37vh; } }
-
-.pies-ligeros {
-  background-image: url("../../imagenes/pies-ligeros.gif");
-  background-size: 20vh 18vh;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.voluntad-hierro {
-  background-image: url("../../imagenes/voluntad-hierro.gif");
-  background-size: 20vh 18vh;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.escalofrios {
-  background-image: url("../../imagenes/escalofrios.gif");
-  background-size: 20vh 18vh;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.caza-menor {
-  background-image: url("../../imagenes/caza-menor.gif");
-  background-size: 20vh 18vh;
-  background-position: center;
-  background-repeat: no-repeat; }
